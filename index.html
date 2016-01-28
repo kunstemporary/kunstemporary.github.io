@@ -1,0 +1,23 @@
+---
+layout: home
+title: John McCartin
+---
+
+<div class="info reader centered padding-1">
+	<p>I'm an urbanist, researcher, and designer living in Brighton, Massachusetts.</p>
+	<p>I work on issues of alternative economic development, labor landscapes, the politics of space, and making cities fun.</p>
+	<p>Currently an Urban Planning student at the Harvard Graduate School of Design.</p>
+	<p>(Slowly) moving items from my <a href="http://www.mccartin.info">old portfolio</a> over to this site.</p>
+	<p><a href="http://johnmccartin.github.io/affiliations/">Affiliations</a> &bull; <a href="http://www.github.com/johnmccartin">Github</a> &bull; <a href="./McCartin.Resume.pdf">Resume [pdf]</a> &bull; <a href="http://www.twitter.com/mccaartiin">Twitter</a> &bull; <a href="http://wiolence.tumblr.com">Tumblr</a> &bull; <a href="http://www.linkedin.com/in/johnmccartin">LinkedIn</a></p>
+	
+</div>
+<p class="padding-left-2 recent-heading">Selected (mostly recent) projects:<p>
+<ul class="post-list">
+	{% for post in site.posts %}
+		<li class="pointer">
+			<a class="padding-top-1 padding-bottom-1 padding-left-2 padding-right-2" href="{{ post.url }}"><span class="title">{{ post.title }}</span><span class="tags margin-left-1">{{ post.tags | array_to_sentence_string }}</a>
+		</li>
+	{% endfor %}
+</ul>
+
+

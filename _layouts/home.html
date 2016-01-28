@@ -1,0 +1,23 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+
+<!--home.html-->
+    <head>
+        {% include head.html %}
+    </head>
+    <body>
+    {% include browserupgrade.html %}
+		<div class="layout centered padding-bottom-2">
+			{% include branding.html %}
+				<img class="margin-top-2 margin-bottom-1" src="https://raw.githubusercontent.com/johnmccartin/johnmccartin.github.io/master/img/necco.jpg" />
+       			{{ content }}
+       		
+        </div>
+
+       {% include scripts.html %}
+        
+    </body>
+</html>
