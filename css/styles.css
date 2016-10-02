@@ -1,0 +1,158 @@
+/* line 11, ../scss/styles.scss */
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Space Mono", arial, sans-serif;
+  overflow: none;
+}
+
+/* line 20, ../scss/styles.scss */
+a {
+  color: #fff;
+}
+
+/* line 24, ../scss/styles.scss */
+.mycanvas {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 30, ../scss/styles.scss */
+.circle {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  cursor: move;
+}
+
+/* line 40, ../scss/styles.scss */
+.branding {
+  background: #000;
+  font-size: 2em;
+}
+/* line 45, ../scss/styles.scss */
+.branding h1 {
+  color: #fff;
+  margin: 0 0 0 0;
+}
+
+/* line 51, ../scss/styles.scss */
+.pull-up {
+  top: 0px;
+}
+
+/* line 55, ../scss/styles.scss */
+.pull-down {
+  bottom: 0px;
+}
+
+/* line 59, ../scss/styles.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 63, ../scss/styles.scss */
+.difference {
+  mix-blend-mode: difference;
+}
+
+/* line 67, ../scss/styles.scss */
+.top {
+  z-index: 9999;
+}
+
+/* line 71, ../scss/styles.scss */
+.bottom {
+  z-index: -9999;
+}
+
+/* line 75, ../scss/styles.scss */
+.stretch-all {
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+/* line 83, ../scss/styles.scss */
+.stretch-lr {
+  left: 0px;
+  right: 0px;
+}
+
+/* line 88, ../scss/styles.scss */
+.fit-text {
+  font-size: 12.3vw;
+}
+
+/* line 96, ../scss/styles.scss */
+.container {
+  width: calc(100vw - 200px);
+  margin: 0px auto;
+  display: table;
+  margin-top: calc(50vh - 5vw);
+}
+
+/* line 104, ../scss/styles.scss */
+footer {
+  height: 10vh;
+  color: #fff;
+}
+
+/* line 110, ../scss/styles.scss */
+ul.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  width: 100%;
+}
+/* line 117, ../scss/styles.scss */
+ul.nav li {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+/* line 123, ../scss/styles.scss */
+ul.nav li a {
+  background: #000;
+}
+
+/*
+.circle {
+	width: $circle-size;
+	height: $circle-size;
+	background-color: $circle-color;
+	border-radius: 50%;
+	margin: 0px auto;
+}
+
+.circle-pulse {
+	margin-top: -$circle-size;
+	animation-name: pulse;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	//aniation-timing-function: ease-in;
+	position: relative;
+}
+
+@keyframes pulse {
+	from {
+		width: $circle-size;
+		height: $circle-size;
+		opacity: 0.8;
+		top: 0;
+	}
+	to {
+		width: $circle-size*2;
+		height: $circle-size*2;
+		opacity: 0.3;
+		top: -$circle-size/2;
+	}
+}*/
