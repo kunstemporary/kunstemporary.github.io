@@ -142,6 +142,13 @@ ul.nav {
 		a {
 			background: $primary-dark;
 			color: $primary-light;
+
+			transition: all .28s linear;
+
+			&:hover {
+				background: $primary-light;
+				color: $primary-dark;
+			}
 		}
 	}
 }
@@ -155,7 +162,11 @@ ul.nav {
 .post-list {
 	width: 100vh;
 	max-width: 800px;
-	margin: 15vh auto;
+	margin: 18vh auto;
+}
+
+.post {
+	margin-bottom: 10vh;
 }
 
 .tags {
