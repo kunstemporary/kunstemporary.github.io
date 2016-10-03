@@ -8,6 +8,10 @@ $font-stack: "Space Mono", arial, sans-serif;
 
 $circle-size: 100px;
 
+* {
+	box-sizing: border-box;
+}
+
 html,body {
   padding: 0;
   margin: 0;
@@ -18,7 +22,8 @@ html,body {
 }
 
 a {
-	color: $primary-light;
+	color: $primary-dark;
+	text-decoration: none;
 }
 
 .mycanvas {
@@ -38,13 +43,23 @@ a {
 
 
 .branding {
-  background: $primary-dark;
   font-size: 2em;
-  //padding-left: 1em;
   
   h1 {
-    color: $primary-light;
-    margin: 0 0 0 0;
+    margin: 0 0 0 1em;
+
+    a {
+    	color: $primary-dark;
+    }
+  }
+
+  &.home-branding {
+  	background: $primary-dark;
+
+  	  h1 {
+	    color: $primary-light;
+	    margin: 0 0 0 0;
+	  }
   }
 }
 
@@ -58,6 +73,10 @@ a {
 
 .absolute {
   position: absolute;
+}
+
+.fixed {
+	position: fixed;
 }
 
 .difference {
@@ -118,46 +137,28 @@ ul.nav {
 
 
 		display: inline-block;
-		width: 25%;
+		width:18.25%;
 		text-align: center;
 		a {
 			background: $primary-dark;
+			color: $primary-light;
 		}
 	}
 }
 
-
-
-
-/*
-.circle {
-	width: $circle-size;
-	height: $circle-size;
-	background-color: $circle-color;
-	border-radius: 50%;
-	margin: 0px auto;
+.content-frame {
+	width: 100vw;
+	height: 101vh;
+	margin-top: -1vh;
 }
 
-.circle-pulse {
-	margin-top: -$circle-size;
-	animation-name: pulse;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
-	//aniation-timing-function: ease-in;
-	position: relative;
+.post-list {
+	width: 100vh;
+	max-width: 800px;
+	margin: 15vh auto;
 }
 
-@keyframes pulse {
-	from {
-		width: $circle-size;
-		height: $circle-size;
-		opacity: 0.8;
-		top: 0;
-	}
-	to {
-		width: $circle-size*2;
-		height: $circle-size*2;
-		opacity: 0.3;
-		top: -$circle-size/2;
-	}
-}*/
+.tags {
+	color: lighten($primary-dark,60%);
+}
+

@@ -1,0 +1,22 @@
+{% include head.html %}
+    
+		
+       <div class="post-list reader">
+			{% for post in site.posts %}
+				<div class="post">
+					<a class="" href="{{ post.url }}"><h1 class="title">{{ post.title }}</h1></a>
+
+					<div class="post-content">
+					{{ post.content }}
+					</div>
+
+					<span class="tags">Tags: {{ post.tags | array_to_sentence_string }}</span>
+				</div>
+			{% endfor %}
+		</div>
+
+		{{ content }}
+    
+
+{% include footer.html %}
+      

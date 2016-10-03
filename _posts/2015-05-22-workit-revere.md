@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Work It! Revere
 subtitle: 
 tags:
