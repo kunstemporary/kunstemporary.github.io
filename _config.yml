@@ -5,8 +5,7 @@ locale: en_US
 description: The Only Record Company Ever
 logo: 
 search: true
-url: http://127.0.0.1:4000
-
+url: http://kunstemporary.github.io
 # Jekyll configuration
 
 permalink:   /:categories/:title/
