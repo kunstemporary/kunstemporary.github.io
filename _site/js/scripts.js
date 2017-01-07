@@ -18,6 +18,29 @@ $(document).ready(function(){
     {
       "name":"page",
       "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/page.wav"
+    },
+    {
+      "name":"buzz",
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/buzz.mp3"
+    },
+    {
+      "name":"chrip",
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/chirp.mp3"
+    },
+    {
+      "name":"sine",
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/sine.mp3"
+    },
+    {
+      "name":"clock",
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/clock.mp3"
+    },
+    {
+      "name":"rocks",
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/rocks.mp3"
+    },{
+      "name":"toilet",
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/toilet.mp3"
     }
    ];
   

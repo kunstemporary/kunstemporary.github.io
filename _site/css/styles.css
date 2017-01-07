@@ -156,9 +156,9 @@ ul.nav li a:hover {
 
 /* line 157, ../scss/styles.scss */
 .content-frame {
-  width: 100vw;
-  height: 101vh;
-  margin-top: -1vh;
+  width: 50vw;
+  height: 50vh;
+  margin: 22vh 0 0 25vw;
 }
 
 /* line 163, ../scss/styles.scss */
