@@ -184,3 +184,39 @@ ul.nav li a:hover {
 .tags {
   color: #999999;
 }
+
+/* line 183, ../scss/styles.scss */
+.padding-2 {
+  padding: 2em;
+}
+
+/* line 187, ../scss/styles.scss */
+.no-mp {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 193, ../scss/styles.scss */
+.splash h1.branding {
+  font-size: 4em;
+  line-height: .95em;
+  margin: 0 0 1em 0;
+}
+/* line 199, ../scss/styles.scss */
+.splash.splash-reader {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* line 206, ../scss/styles.scss */
+.splash p strong {
+  display: block;
+  font-size: 1.5em;
+}
+/* line 212, ../scss/styles.scss */
+.splash img {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+}

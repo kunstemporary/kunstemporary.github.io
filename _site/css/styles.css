@@ -156,24 +156,67 @@ ul.nav li a:hover {
 
 /* line 157, ../scss/styles.scss */
 .content-frame {
+  width: 100vw;
+  height: 101vh;
+  margin-top: -1vh;
+}
+
+/* line 163, ../scss/styles.scss */
+.content-frame-listen {
   width: 50vw;
   height: 50vh;
   margin: 22vh 0 0 25vw;
 }
 
-/* line 163, ../scss/styles.scss */
+/* line 169, ../scss/styles.scss */
 .post-list {
   width: 100vh;
   max-width: 800px;
   margin: 18vh auto;
 }
 
-/* line 169, ../scss/styles.scss */
+/* line 175, ../scss/styles.scss */
 .post {
   margin-bottom: 10vh;
 }
 
-/* line 173, ../scss/styles.scss */
+/* line 179, ../scss/styles.scss */
 .tags {
   color: #999999;
+}
+
+/* line 183, ../scss/styles.scss */
+.padding-2 {
+  padding: 2em;
+}
+
+/* line 187, ../scss/styles.scss */
+.no-mp {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 193, ../scss/styles.scss */
+.splash h1.branding {
+  font-size: 4em;
+  line-height: .95em;
+  margin: 0 0 1em 0;
+}
+/* line 199, ../scss/styles.scss */
+.splash.splash-reader {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+/* line 206, ../scss/styles.scss */
+.splash p strong {
+  display: block;
+  font-size: 1.5em;
+}
+/* line 212, ../scss/styles.scss */
+.splash img {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
 }

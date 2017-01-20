@@ -180,3 +180,40 @@ ul.nav {
 	color: lighten($primary-dark,60%);
 }
 
+.padding-2 {
+	padding: 2em;
+}
+
+.no-mp {
+	margin: 0;
+	padding: 0;
+}
+
+.splash {
+	h1.branding {
+		font-size: 4em;
+		line-height: .95em;
+		margin: 0 0 1em 0;
+	}
+
+	&.splash-reader {
+		width: 90%;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	p {
+		strong {
+			display: block;
+			font-size: 1.5em;
+		}
+	}
+
+	img {
+		width: 100%;
+		max-width: 500px;
+		margin: 0 auto;
+		display: block;
+	}
+}
+
