@@ -169,11 +169,15 @@ ul.nav {
 .post-list {
 	width: 100vh;
 	max-width: 800px;
-	margin: 18vh auto;
+	margin: 18vh 0 18vh 7em;
 }
 
 .post {
 	margin-bottom: 10vh;
+
+	.post-content {
+		font-family: arial, sans-serif;
+	}
 }
 
 .tags {

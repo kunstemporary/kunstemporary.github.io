@@ -1,0 +1,22 @@
+{% include head.html %}
+    
+
+    <div class="post-list reader">
+			
+		<div class="post">
+			<a class="" href="{{ post.url }}"><h1 class="title">{{ title }}</h1></a>
+
+			<div class="post-content">
+			{{ content }}
+			</div>
+
+			<span class="tags">Tags: {{ post.tags | array_to_sentence_string }}</span>
+		</div>
+			
+	</div>
+
+    {% include branding-standard.html %}
+    
+
+{% include footer.html %}
+      
