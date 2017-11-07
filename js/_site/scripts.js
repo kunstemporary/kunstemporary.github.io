@@ -5,42 +5,42 @@ $(document).ready(function(){
    var sounds = [
     {
       "name":"lightbulb",
-      "url":"https://www.dropbox.com/s/lvgf1z5hpz94gae/lightbulb.wav?dl=0"
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/lightbulb.wav"
     },
     {
       "name":"plastic",
-      "url":"https://www.dropbox.com/s/phoabkgo0ql626d/plastic.mp3?dl=0"
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/plastic.mp3"
     },
     {
       "name":"blop",
-      "url":"https://www.dropbox.com/s/01rcx9xeo9z3jzl/blop.wav?dl=0"
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/blop.wav"
     },
     {
       "name":"page",
-      "url":"https://www.dropbox.com/s/v9yxipzjzh4wyaz/page.wav?dl=0"
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/page.wav"
     },
     {
       "name":"buzz",
-      "url":"https://www.dropbox.com/s/v3gkwjpwhvirqxn/buzz.mp3?dl=0"
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/buzz.mp3"
     },
     {
       "name":"chrip",
-      "url":"https://www.dropbox.com/s/rwf0sx885jjw14p/chirp.mp3?dl=0"
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/chirp.mp3"
     },
     {
       "name":"sine",
-      "url":"https://www.dropbox.com/s/ws4k6gwrafku8rl/sine.mp3?dl=0"
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/sine.mp3"
     },
     {
       "name":"clock",
-      "url":"https://www.dropbox.com/s/c3xsi5zrhphqmqa/clock.mp3?dl=0"
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/clock.mp3"
     },
     {
       "name":"rocks",
-      "url":"https://www.dropbox.com/s/36d9zfy95io53x8/rocks.mp3?dl=0"
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/rocks.mp3"
     },{
       "name":"toilet",
-      "url":"https://www.dropbox.com/s/9srmme6dx0yfp8u/toilet.mp3?dl=0"
+      "url":"https://dl.dropboxusercontent.com/u/41962190/sounds/toilet.mp3"
     }
    ];
   
